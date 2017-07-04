@@ -1,0 +1,25 @@
+#navbar {
+	display: flex;
+	flex-direction: row;
+}
+.navbar-entry {
+	margin: 1em;
+}
+#below-navbar {
+	display: flex;
+	flex-direction: row;
+}
+#sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.sidebar-entry {
+	display: flex;
+	align-items: center;
+	margin: 1em;
+	justify-content: center;
+}
+#text-body {
+	display: block;
+}
