@@ -5,6 +5,8 @@ html, body {
 
 body {
 	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
 
 header {
@@ -21,21 +23,24 @@ h1,h2 {
     border-color: navy;
 }
 
-.browntext a {
-	color: brown;
+.browntext, .browntext a {
+	color: saddlebrown;
 }
 
 #navbar {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
     border-left: none;
     border-right: none;
+	padding: 5px;
 }
 
-.navbar-entry, .sidebar-entry {
+.navigation-entry {
 	margin: 5px;
-    padding: 0.5em;
+    padding: 5px;
     border: solid forestgreen;
+	text-align: center;
 }
 
 #below-navbar {
@@ -52,13 +57,6 @@ h1,h2 {
     border-bottom: none;
  
 }
-
-/* .sidebar-entry { */
-/* 	display: flex; */
-/* 	align-items: center; */
-/* 	margin: 1em; */
-/* 	justify-content: center; */
-/* } */
 
 #the_frame {
 	display: block;
