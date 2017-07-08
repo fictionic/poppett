@@ -4,27 +4,62 @@ html, body, main, iframe {
 	height: 100%;
 }
 
+body {
+	margin: 0;
+}
+
+header {
+	background-color: lightblue;
+}
+
+h1,h2 {
+	margin: 0;
+	padding: 0.5em;
+}
+
+.blueborder {
+	border: solid;
+    border-color: navy;
+}
+
+.browntext a {
+	color: brown;
+}
+
 #navbar {
 	display: flex;
 	flex-direction: row;
+    border-left: none;
+    border-right: none;
 }
-.navbar-entry {
-	margin: 1em;
+
+.navbar-entry, .sidebar-entry {
+	margin: 5px;
+    padding: 0.5em;
+    border: solid forestgreen;
 }
+
 #below-navbar {
 	display: flex;
 	flex-direction: row;
 }
+
 #sidebar {
 	display: flex;
 	flex-direction: column;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+ 
 }
-.sidebar-entry {
-	display: flex;
-	align-items: center;
-	margin: 1em;
-	justify-content: center;
-}
+
+/* .sidebar-entry { */
+/* 	display: flex; */
+/* 	align-items: center; */
+/* 	margin: 1em; */
+/* 	justify-content: center; */
+/* } */
+
 #the_frame {
 	display: block;
 	border: none;
